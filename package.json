@@ -1,4 +1,13 @@
 {
   "name": "drag-sort",
-  "version": "1.6.0"
+  "version": "1.6.2",
+  "author": {
+    "name": "kevenfeng",
+    "email": "ke7infeng@gmail.com"
+  },
+  "homepage": "http://kevenfeng.com/wordpress/2017/07/22/dragsort.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevenfeng/DragSort"
+  }
 }
