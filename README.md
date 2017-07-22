@@ -1,22 +1,18 @@
-# node-agent
+# DragSort
 
-为了让 Node.js 应用可以运行于 TAF 框架中， `node-agent` 将作为启动器来启动应用，以屏蔽 TAF 框架与 Node.js 间的差异，并提供生产环境所需的服务特性。
+小程序里面拖动排序技术方案
 
 它主要提供了如下的功能：
 
-* __内置负载均衡（通过 Cluster 模块实现）__  
-* __异常退出的监控与拉起__  
-* __日志搜集与处理__  
-* __支持TAF平台的管理命令__  
-* __支持 HTTP(s) 服务监控上报（在 TAF 平台上运行）__
-* __支持服务用量上报（在 TAF 平台上运行）__
+* 列表拖动排序
 
-## 安装
 
-`npm --registry http://npm.oa.com install "node-agent" -g`  
+## todo
+拖动到顶部或者底部无法再拖动。
+此种方案可以做到，但是没有时间来完成，有时间再做优化。
+有朋友有时间的话，可以用微信scrollview中的scroll-top来实现
 
-> 由于 `node-agent` 是一个 CLI 程序，所以一般需要使用 __-g__ 参数来安装
 
-## 架构
+## 效果图
 
-![PM2](http://git.oa.com/taf/node-agent/raw/master/doc/architecture.png)
+![效果图](http://idtcdn.oss-cn-hangzhou.aliyuncs.com/external/dongfang/image.png)
