@@ -16,3 +16,7 @@
 ## 效果图
 
 ![效果图](http://idtcdn.oss-cn-hangzhou.aliyuncs.com/external/dongfang/image.png)
+
+## 案例
+
+在微信中搜索股票灯塔+小程序，里面的自选股编辑就是用这个技术开发。更多案例：东方微证券+
